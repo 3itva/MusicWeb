@@ -18,8 +18,8 @@ html {
 }
 .navigation {
     background: rgba(20, 20, 20, 0.75) ;
-    width: 20%;
-    height: 500px;
+    min-width: 20%;
+    height: 300px;
     border-radius: 15px;
 }
 .artist {
@@ -31,11 +31,10 @@ html {
 }
 #image {
     height: 150px;
-    width: 50%;
     margin: 35px;
 }
 #artistName {
-    margin: 5px;
+    margin: 50px 0 5px 0;
 }
 #musicName {
     font-size: 0.9em;
@@ -44,6 +43,7 @@ html {
 }
 .buttons {
     margin: 30px 0;
+    cursor: pointer;
 }
 .getIt {
     background: linear-gradient(to right, rgba(9,9,121,1), #007dff);
@@ -65,4 +65,14 @@ i {
 }
 #pauseBtn {
     display: none;
+}
+.linkmore {
+    color: #535353;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 0.7em;
+    font-family: Arial;
+}
+.linkmore:hover {
+    color: #5F5F5F;
 }
